@@ -24,6 +24,13 @@ El objetivo del proyecto es mostrar un pipeline simple de ETL usando Prefect, ap
 ```bash
 ssh -i "clave.pem" ubuntu@18.229.xxx.xxx
 ```
+En el config del .ssh el formato debe ser asi:
+```bash
+Host (NOMBRE_INSTANCIA)
+  Hostname (IPv4 Publica)
+  User ubuntu
+  IdendityFile (Ruta absoluta del archivo .pem (key de ec2))
+```
 
 (luego instalo git, python, pip...)
 
