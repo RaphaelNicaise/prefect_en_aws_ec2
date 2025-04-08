@@ -1,4 +1,12 @@
 # ETL Flow con Prefect en AWS EC2
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/330px-Amazon_Web_Services_Logo.svg.png" width="100"/>
+  <img src="https://www.cdnlogo.com/logos/a/99/aws-ec2.svg" width="70"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Amazon-S3-Logo.svg/1712px-Amazon-S3-Logo.svg.png" width="80"/>
+  <img src="https://prefect-284-docs.netlify.app/img/logos/prefect-logo-mark-solid-white-500.png" width="90"/>
+</p>
+
+
 
 En este proyecto realicé las siguientes tareas:
 
@@ -9,7 +17,7 @@ En este proyecto realicé las siguientes tareas:
 
 El objetivo del proyecto es mostrar un pipeline simple de ETL usando Prefect, aprovechando los servicios gratuitos del Free Tier. Aca lo interesante es la infraestructura.
 
-## 🧪 Cómo ejecutar el proyecto EC2
+## Como ejecutar el proyecto EC2
 
 ### 1. Conectarse por SSH a la instancia EC2
 
